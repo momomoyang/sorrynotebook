@@ -5,13 +5,13 @@ window.initMap = function () {
     });
   
     const malls = [
-      { label: "C", name: "코엑스몰", lat: 37.5115557, lng: 127.0595261 },
-      { label: "G", name: "고투몰", lat: 37.5062379, lng: 127.0050378 },
-      { label: "D", name: "동대문시장", lat: 37.566596, lng: 127.007702 },
-      { label: "I", name: "IFC몰", lat: 37.5251644, lng: 126.9255491 },
-      { label: "L", name: "롯데월드타워몰", lat: 37.5125585, lng: 127.1025353 },
-      { label: "M", name: "명동지하상가", lat: 37.563692, lng: 126.9822107 },
-      { label: "T", name: "타임스퀘어", lat: 37.5173108, lng: 126.9033793 }
+      { label: "C", name: "Coex mall <8:00~ 23:00>", lat: 37.5115557, lng: 127.0595261 },
+      { label: "G", name: "Goto mall <10:00~ 15:00>", lat: 37.5062379, lng: 127.0050378 },
+      { label: "D", name: "Dongdaemun market <4:00~ 12:00>", lat: 37.566596, lng: 127.007702 },
+      { label: "I", name: "IFC mall <10:00~ 20:00", lat: 37.5251644, lng: 126.9255491 },
+      { label: "L", name: "Lottetower mall <8:00~ 21:00", lat: 37.5125585, lng: 127.1025353 },
+      { label: "M", name: "Myeongdong underground market <8:00~ 24:00>", lat: 37.563692, lng: 126.9822107 },
+      { label: "T", name: "Timesquare <8:00~20:00", lat: 37.5173108, lng: 126.9033793 }
     ];
 
     const bounds = new google.maps.LatLngBounds();
